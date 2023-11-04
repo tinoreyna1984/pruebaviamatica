@@ -57,7 +57,7 @@ public class AuthenticationService {
         User user = new User();
         user.setUsername(registrationRequest.getUsername());
         user.setPassword(registrationRequest.getPassword());
-        user.setAccessID(registrationRequest.getAccessId());
+        user.setAccessId(registrationRequest.getAccessId());
         user.setName(registrationRequest.getName());
         user.setLastName(registrationRequest.getLastName());
         String email = crearEmailDesdeNombreUsuario(user);

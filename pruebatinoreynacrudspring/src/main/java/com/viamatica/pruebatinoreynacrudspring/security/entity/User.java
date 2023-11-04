@@ -117,7 +117,7 @@ public class User implements UserDetails {
         return accessId;
     }
 
-    public void setAccessID(String accessId) {
+    public void setAccessId(String accessId) {
         this.accessId = accessId;
     }
 
